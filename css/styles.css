@@ -1,0 +1,91 @@
+/* Set Your Own Margin & Padding */
+h2, h3, p {
+	margin: 0;
+}
+
+/* Layout for Style Tile*/
+section {
+	margin: 20px 0;
+}
+
+.color-1,
+.color-2,
+.color-3,
+.pattern-1,
+.pattern-2,
+.pattern-3 {
+	border: 1px solid #000;
+	float: left;
+	margin: 0 10px;
+	height: 50px;
+	width: 50px;
+}
+
+body {
+	font-size: 0.625em;
+	font-family: 'Archivo Narrow', sans-serif;
+}
+
+h1 {
+	color: #2DA250;
+	font-size: 3.2em;
+}
+
+h2 {
+	color: #35C160;
+	font-size: 2.8em;
+}
+
+h3 {
+	color: #484848;
+	font-size: 2.0em;
+}
+
+p {
+	color: black;
+	font-size: 1.6em;
+}
+
+em {
+	color: black;
+	font-size: 1.4em;
+}
+
+a:link {
+	color: #35C160;
+}
+
+a:visited {
+	color: #2DA250;
+}
+
+.color-1 {
+	background: #DADADA;
+}
+
+.color-2 {
+	background: #35C160;
+}
+
+.color-3 {
+	background: #2DA250;
+}
+
+.pattern-1 {
+	background: url("../img/old_map.png") no-repeat;
+}
+
+.pattern-2 {
+	background: url("../img/subtle_grunge.png") no-repeat;
+}
+
+.pattern-3 {
+	background: url("../img/green_cup.png") no-repeat;
+}
+
+
+
+/* Show Grid */
+.showgrid {
+	background: url("../img/grid-bg.png") repeat-y;
+}
